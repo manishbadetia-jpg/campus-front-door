@@ -1,0 +1,12 @@
+{
+  "name": "campus-front-door",
+  "owner": { "name": "Manish Agrawal" },
+  "plugins": [
+    {
+      "name": "front-door",
+      "source": "./plugins/front-door",
+      "description": "Triage incoming student messages for a course. Drafts replies only from an approved answers file, escalates protected categories, and never sends anything.",
+      "keywords": ["email", "triage", "students", "teaching", "inbox", "escalation", "university"]
+    }
+  ]
+}
